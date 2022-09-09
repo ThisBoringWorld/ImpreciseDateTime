@@ -28,6 +28,7 @@ public unsafe static partial class ImpreciseDateTime
         var ticks = UtcNowTicks();
         return *(DateTime*)&ticks;
     }
+    
     /// <summary>
     /// <inheritdoc cref="DateTime.UtcNow"/>
     /// <inheritdoc cref="DateTime.Ticks"/>
